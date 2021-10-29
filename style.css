@@ -1,3 +1,5 @@
+/* Nav Bar */
+
 body {
     margin: 0px;
 }
@@ -25,4 +27,40 @@ li {
 a {
     color: black;
     text-decoration: none;
+}
+
+/* Form */
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#submit {
+    justify-content: center;
+}
+
+select {
+    /* lol */
+    width: 68%;
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+
+input {
+    background-color: lightskyblue;
+    border-radius: 5px;
 }
